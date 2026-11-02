@@ -7,8 +7,7 @@
 def solution(numbers, target_sum):
     for number1_index in range(len(numbers)):
         number1 = numbers[number1_index]
-
-    for number2_index in range(number1_index + 1, len(numbers)):
-        if number1 + numbers[number2_index] == target_sum:
-            return [number1, numbers[number2_index]]
+        for number2_index in range(number1_index + 1, len(numbers)):
+            if number1 + numbers[number2_index] == target_sum:
+                return [number1, numbers[number2_index]]
     return []
