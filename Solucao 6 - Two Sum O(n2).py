@@ -11,3 +11,4 @@ def solution(numbers, target_sum):
             if number1 + numbers[number2_index] == target_sum:
                 return [number1, numbers[number2_index]]
     return []
+print(solution([-6, -4, -2, -1, 1, 1, 2, 4, 11, 16], 9))

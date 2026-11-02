@@ -3,4 +3,3 @@ def solution(string):
     #for index in reversed(range(len(string))):
     #    reversed_string += string[index]
     return string == string[::-1]
-    

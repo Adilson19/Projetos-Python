@@ -11,3 +11,4 @@ def solution(numbers, target_sum):
         else:
             calc_numbers[n] = True
     return []
+print(solution([-6, -4, -2, -1, 1, 1, 2, 4, 11, 16], 9))

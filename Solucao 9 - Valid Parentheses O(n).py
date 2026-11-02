@@ -1,4 +1,4 @@
-#str_to_validate = '()[]{}'
+str_to_validate = '()[]{}'
 def solution(str_to_validate):
     stack = []
     mapping = {
@@ -14,3 +14,4 @@ def solution(str_to_validate):
                 continue
         stack.append(s)
     return len(stack) == 0
+print(solution(str_to_validate))
